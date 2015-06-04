@@ -1,8 +1,9 @@
 module Peek
   module Views
     class Host < View
+      
       # Returns Peek::Views::Host
-      def initialize
+      def initialize(options = {})
         @hostname = hostname
       end
 
